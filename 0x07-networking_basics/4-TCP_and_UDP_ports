@@ -1,0 +1,16 @@
+#!/bin/bash
+
+# Get the list of listening sockets and their associated PIDs
+listening_sockets=$(ss -lnpt)
+
+# Loop through each line of the output
+while IFS= read -r line; do
+    # Extract the PID and process name from the line
+    pid=$(echo "$line" | awk '{print $7}')
+    process_name=$(echo "$line" | awk '{print $NF}')
+    
+    # Print the listening port, PID, and process name
+    if [[ $line == *LISTEN* ]]; then
+        echo "$line | PID: $pid | Process Name: $process_name"
+    fi
+done <<< "$listening_sockets"
