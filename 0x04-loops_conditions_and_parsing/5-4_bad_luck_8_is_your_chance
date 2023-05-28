@@ -10,7 +10,6 @@ do
 	then
 		echo "good luch"
 	else
-	then
 		echo "Best School"
 	fi
 	end=$((end+1))
