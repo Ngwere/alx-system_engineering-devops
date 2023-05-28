@@ -3,13 +3,15 @@
 end=1
 while [ $end -lt 10 ]
 do
-	echo "Best School"
 	if [ $end -eq 4 ]
 	then
 		echo "bad luck"
 	elif [ $end -eq 8 ]
 	then
 		echo "good luch"
+	else
+	then
+		echo "Best School"
 	fi
 	end=$((end+1))
 done
