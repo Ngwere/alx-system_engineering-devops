@@ -1,14 +1,14 @@
 #!/usr/bin/env bash
 #Script that displays "Best School" 10 times
 end=1
-while [ $end -lt 10 ]
+while [ $end -lt 11 ]
 do
 	if [ $end -eq 4 ]
 	then
 		echo "bad luck"
 	elif [ $end -eq 8 ]
 	then
-		echo "good luch"
+		echo "good luck"
 	else
 		echo "Best School"
 	fi

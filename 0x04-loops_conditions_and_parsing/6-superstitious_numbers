@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+#Script that displays "Best School" 10 times
+end=1
+while [ $end -lt 21 ]
+do
+	if [ $end -eq 4 ]
+	then
+		echo "bad luck from China"
+	elif [ $end -eq 9 ]
+	then
+		echo "bad luck from Japan"
+	elif [ $end -eq 17 ]
+	then
+		echo "bad luck from Italy"
+	else
+		echo "$end"
+	fi
+	end=$((end+1))
+done
