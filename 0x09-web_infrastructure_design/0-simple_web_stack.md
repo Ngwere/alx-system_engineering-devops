@@ -1,9 +1,9 @@
 # Simple Web Design
 
-https://github.com/Ngwere/alx-system_engineering-devops/blob/master/task-0-WID.jpg.png
+![Simple Design](https://github.com/Ngwere/alx-system_engineering-devops/blob/master/task-0-WID.jpg.png)
 
 ## Description
-   In this task, I presented the design that shows the how the client called user connect to the host server hosting the website www.foobar.com. In this design, we do not use firewalls nor ssl certificates for protecting server's network. All components(database, application server) has to share the resources (CPU, RAM, and SSD) provided by the server. 
+   In this task, I presented the design that shows how the client called "User" connect to the host server hosting the website www.foobar.com. In this design, we do not use firewalls nor ssl certificates for protecting server's network. All components(database, application server) has to share the resources (CPU, RAM, and SSD) provided by the server. 
 
 ## Specifics About The Infrastructure
 * What is a server?
